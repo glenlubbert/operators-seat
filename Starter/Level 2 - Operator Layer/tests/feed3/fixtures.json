@@ -1,0 +1,11 @@
+{
+  "now": "2026-10-13T07:00:00",
+  "people": ["Ana", "Ben"],
+  "meetings": {
+    "pricing": {"id": "M1", "title": "Pricing call", "start": "2026-10-13T02:00:00", "edited": "2026-10-13T03:00:00", "participants": ["Ana", "Ben", "Zed"], "transcript": "Agreed on Q4 price."},
+    "hiring": {"id": "M2", "title": "Hiring sync", "start": "2026-10-13T04:00:00", "edited": "2026-10-13T05:00:00", "participants": ["Ben"], "transcript": "Two finalists."},
+    "board_prep": {"id": "M0", "title": "Board prep", "start": "2026-10-03T09:00:00", "edited": "2026-10-03T10:00:00", "participants": ["Ana", "Ben"], "transcript": "Draft deck."},
+    "board_prep_amended": {"id": "M0", "title": "Board prep", "start": "2026-10-03T09:00:00", "edited": "2026-10-13T06:00:00", "participants": ["Ana"], "transcript": "Deck approved; date moved. Ben was not in this meeting."},
+    "late": {"id": "M5", "title": "Partner check-in", "start": "2026-10-08T15:00:00", "edited": "2026-10-12T20:00:00", "participants": ["Ana"], "transcript": "Renewal likely."}
+  }
+}
