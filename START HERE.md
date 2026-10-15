@@ -74,7 +74,7 @@ Say:
 
 Then talk. What the company does. What you charge. The people who matter and why. A decision you made and the reason. Five to ten things. It writes each one into its memory with today's date and tells you what it filed.
 
-Or, if you'd rather hand it what you already have: drag a few files into the `0. Inbox` folder (the documents you'd give a new assistant on day one) and say "Sort my inbox." It tells you what each one is, suggests where it belongs, and pulls out what's worth remembering. Nothing moves until you say yes. Start with a handful, not your whole hard drive. You can use the inbox any day after this, too.
+Or, if you'd rather hand it what you already have: drag a few files into the `0. Inbox` folder (the documents you'd give a new assistant on day one) and say "Sort my inbox." It tells you what each one is, suggests where it belongs, and pulls out what's worth remembering. Nothing moves until you say yes. (Some AI apps can write files but not move them. If yours can't, it gives you a short list of what to drag where, and checks once you've done it.) Start with a handful, not your whole hard drive. You can use the inbox any day after this, too.
 
 Either way, in a new conversation, ask a question only those facts can answer. It should cite them back to you.
 
