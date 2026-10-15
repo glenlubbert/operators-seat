@@ -4,7 +4,7 @@
 
 ---
 
-For too long, I had to keep re-explaining myself in each AI conversation or repeat myself when switching between AI apps. Sometimes it made it into memory, or I built a skill around it. Then I'd switch to a different AI and start from scratch. So I began recording it all in plain text files, in the same set of folders I've used since 2017 to organize my digital life, for myself and for my businesses.
+For too long, I had to keep re-explaining myself and constantly uploading files in each AI conversation or repeat myself when switching between AI apps. Sometimes it made it into memory, or I built a skill around it. Then I'd switch to a different AI and start from scratch. So I began recording it all in plain text files, in the same set of folders I've used since 2017 to organize my digital life, for myself and for my businesses.
 
 That set of folders, now easier to manage and with much of the work automated by agents, runs my company: marketing, finance, operations, and product development. Every Friday it writes the marketing report my co-founder reads before our call and the week's financial snapshot. It keeps the product build specs, syncs the CRM, knows our pricing and our voice rules, which leads are warm and which are dead, and it files what we decide the moment we decide it. I don't re-explain anything. And it isn't tied to one AI: Claude, ChatGPT, or an open-source one on my laptop with the wifi off.
 

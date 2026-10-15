@@ -23,6 +23,6 @@ Version 0.9. Built from a system the author uses daily, now being tried by its f
 
 ## License
 
-The writing and folders are under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); the three scripts in `Starter/Level 2 - Operator Layer/` are under the MIT License. Share it, adapt it, sell it, or charge to set it up, with credit to Glen Lubbert. Details in `REUSE.md`.
+The writing and folders are under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); the four scripts in `Starter/Level 2 - Operator Layer/` are under the MIT License. Share it, adapt it, sell it, or charge to set it up, with credit to Glen Lubbert. Details in `REUSE.md`.
 
 Want help setting it up for yourself or integrating it with your business? [Message Glen on LinkedIn](https://www.linkedin.com/in/glenlubbert).

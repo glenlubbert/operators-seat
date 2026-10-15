@@ -90,7 +90,7 @@ The first version will be wrong. The third will be useful. The tenth will quietl
 
 **Version:** Operator's Seat v0.9, October 13, 2026. "0.9" because the seven steps haven't yet been run end to end by an outside user. The author ran them as a new user on October 15, 2026: a separate computer, a fresh Claude desktop install on a different account, the kit downloaded from its public page, and a real business's old files sorted through the inbox. Everything tested worked. The author's own system, which this kit is cut down from, runs daily on the Claude desktop app. The ChatGPT Work and own-machine paths are written from vendor documentation and partial testing. 1.0 follows the first outside pilots.
 
-**Reuse:** free to share, adapt, and use commercially, including charging to set it up for others, as long as you credit Glen Lubbert. The writing and folders are under CC BY 4.0 (creativecommons.org/licenses/by/4.0/); the three scripts are under the MIT License. Details in `REUSE.md`.
+**Reuse:** free to share, adapt, and use commercially, including charging to set it up for others, as long as you credit Glen Lubbert. The writing and folders are under CC BY 4.0 (creativecommons.org/licenses/by/4.0/); the four scripts are under the MIT License. Details in `REUSE.md`.
 
 **Sources named above:**
 - Andrej Karpathy, "LLM Knowledge Bases," his post on X (@karpathy), early April 2026, and the follow-up "idea file" gist describing the architecture. Content confirmed from the author's saved notes on the thread and independent coverage; direct links to be added.

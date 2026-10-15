@@ -6,7 +6,7 @@
 
 ## The writing and folders: CC BY 4.0
 
-Everything in this kit except the three scripts (START HERE, Why it works, the cheat sheet, and every file in Starter) is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+Everything in this kit except the four scripts (START HERE, Why it works, the cheat sheet, and every file in Starter) is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
 
 You're free to:
 
@@ -23,7 +23,7 @@ Your own folders, once you've filled them in, are yours. The license covers the 
 
 ## The scripts: MIT License
 
-The three scripts in `Starter/Level 2 - Operator Layer/` (`scripts/build_index.py`, `publishing/build_cheat_sheet.py`, and `tests/feed3/sim.py`) are licensed under the MIT License:
+The four scripts in `Starter/Level 2 - Operator Layer/` (`scripts/build_index.py`, `publishing/build_cheat_sheet.py`, `tests/feed3/sim.py`, and `tests/paths/two_roots.py`) are licensed under the MIT License:
 
 > Copyright (c) 2026 Glen Lubbert
 >
