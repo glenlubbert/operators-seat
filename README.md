@@ -6,7 +6,7 @@
 
 Operator's Seat is a set of plain folders and a seven-step guide that turns the AI you already use into a chief of staff that knows your work. It interviews you, keeps what you decide in files on your own computer, and works with the Claude desktop app, ChatGPT's desktop app, or an AI running on your own machine. Switch AIs anytime; the folders come with you.
 
-No coding, no GitHub account needed. Download the ZIP, open `START HERE.md`, and follow the steps.
+No coding, no GitHub account needed. Download the ZIP, open `START HERE.md`, and follow the steps. You'll need a desktop or laptop and an AI plan that lets the AI work in a folder on your computer: as of October 2026, Claude Pro or higher, or ChatGPT Plus or higher. A free open-source AI on your own computer also works, with more setup.
 
 ## What's in the download
 

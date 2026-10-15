@@ -18,6 +18,12 @@ By step 7 you'll have a set of folders any AI can read that knows who you are, w
 
 Step 1 takes about half an hour; the rest are under fifteen minutes. Do them in order since the later steps only make sense once the earlier ones are real.
 
+## What you need
+
+- **A desktop or laptop** (Mac or Windows). The phone apps can't open folders on your computer.
+- **An AI app that can work in a folder on your computer.** As of October 2026 that means a paid plan: the Claude desktop app on Pro or higher, or ChatGPT's desktop app on Plus or higher. The free plans don't let the AI open your folders. Plans change, so if you're not sure, check your app's plan page.
+- **No paid plan?** An open-source AI on your own computer is free; `Starter/Level 2 - Operator Layer/Run it on your own machine.md` explains it. It's more technical to set up and hasn't been fully tested with these steps yet.
+
 ## What's in this folder
 
 - **START HERE.md**: you're reading it.
