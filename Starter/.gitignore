@@ -1,0 +1,23 @@
+# Editor state that changes on every open; keep the rest of .obsidian (plugins, settings)
+**/.obsidian/workspace.json
+**/.obsidian/workspace-mobile.json
+**/.obsidian/cache
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Secrets never belong in the vault, but if a tool insists on a local file, keep it out of history
+.env
+.env.*
+.secrets/
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+
+# Daily review and feed output are working files, not history (remove these lines if you want them tracked)
+REVIEW.md
+**/knowledge/feed-output/
