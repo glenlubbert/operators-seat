@@ -35,4 +35,4 @@ The three scripts in `Starter/Level 2 - Operator Layer/` (`scripts/build_index.p
 
 ## Want help setting it up?
 
-The kit is free. If you'd like help connecting it to your business (your reports, your CRM, your meeting notes, scheduled feeds), get in touch with Glen.
+The kit is free. If you'd like help connecting it to your business (your reports, your CRM, your meeting notes, scheduled feeds), message Glen on LinkedIn: https://www.linkedin.com/in/glenlubbert
