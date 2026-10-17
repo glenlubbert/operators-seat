@@ -30,9 +30,9 @@ AI that runs on your own machine matters more than people expect. An open-source
 
 The folder is the asset. The agent is interchangeable.
 
-## Why it uses less of your AI plan
+## Why it uses fewer tokens
 
-Every AI plan has limits, measured in tokens: roughly, how much text the AI reads and writes. Three things in this kit keep that number down.
+Every AI plan has limits, measured in tokens: roughly, how much text the AI reads and writes. Three things in this kit keep your token use down.
 
 **Fresh chats that already know you.** A long conversation gets more expensive with every message, because the AI rereads the whole history each time it answers. Here, anything that matters gets saved to the files, so you can start a new chat for each task and lose nothing. You also stop pasting the same background and re-uploading the same documents every time.
 
