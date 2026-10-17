@@ -30,6 +30,18 @@ AI that runs on your own machine matters more than people expect. An open-source
 
 The folder is the asset. The agent is interchangeable.
 
+## Why it uses less of your AI plan
+
+Every AI plan has limits, measured in tokens: roughly, how much text the AI reads and writes. Three things in this kit keep that number down.
+
+**Fresh chats that already know you.** A long conversation gets more expensive with every message, because the AI rereads the whole history each time it answers. Here, anything that matters gets saved to the files, so you can start a new chat for each task and lose nothing. You also stop pasting the same background and re-uploading the same documents every time.
+
+**A map instead of the whole library.** Knowledge is kept as small notes, one idea per file, with a plain name. Once you have more than a dozen, a short script (in Level 2) builds an index: one line per note. The AI reads that one page, picks the two or three notes that matter, and opens only those. Topic folders carry a short summary so the AI can get its bearings without opening everything. So the cost of a question depends on the question, not on how much you've saved. Five years of notes cost about the same to search as five weeks.
+
+**Short standing instructions.** The instructions every conversation reads are kept to about 2,400 words. The procedures you only need now and then (the first interview, sorting files, the Friday audit, setting up feeds) sit in a separate file the AI opens only when that task comes up.
+
+There's a small fixed cost: each new conversation starts by reading a few short files. That's the trade, and it's much less than re-explaining yourself. No savings figure is claimed here, because it depends on how you work; the mechanics above are what make it smaller.
+
 ## You think. It types.
 
 Nick Milo has a name for the failure mode this kit is built to avoid: cognitive surrender, handing your thinking to an AI because you're tired, and getting short-term relief at the cost of your own judgment. It's a fair worry about any system where the AI does the writing.
