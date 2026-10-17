@@ -17,7 +17,8 @@ Starter/
 │   ├── rules.md                   ← rules for this role only (usually short)
 │   └── feeds.md                   ← what the AI checks on a schedule (step 7)
 ├── knowledge/
-│   ├── agents.md                  ← the runbook; every AI reads it first
+│   ├── agents.md                  ← the runbook; every AI reads it first (kept short)
+│   ├── playbooks.md               ← occasional tasks; opened only when needed
 │   ├── knowledge.md               ← confirmed facts (step 3)
 │   ├── hypotheses.md              ← things you're testing
 │   └── rules.md                   ← rules that apply everywhere (step 5)
