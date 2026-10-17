@@ -39,7 +39,7 @@ Anything else (nested maps, multi-line strings, anchors) is reported as
 unsupported for that file and the file is indexed with whatever parsed.
 
 Skips:
-    - INDEX.md, agents.md
+    - INDEX.md, agents.md, playbooks.md
     - Loop files (knowledge.md / hypotheses.md / rules.md) at any depth, listed
       as a single "Loop files" line per domain
     - Any file whose frontmatter has status: example
@@ -58,7 +58,7 @@ import os, re, sys, tempfile
 from pathlib import Path
 from datetime import date
 
-SKIP_NAMES = {"INDEX.md", "agents.md"}
+SKIP_NAMES = {"INDEX.md", "agents.md", "playbooks.md"}
 LOOP = {"knowledge.md", "hypotheses.md", "rules.md"}
 SKIP_DIRS = {"digests", "feed-output"}
 SUMMARY_MAXLEN = 110
