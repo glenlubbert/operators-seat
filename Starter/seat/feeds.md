@@ -33,7 +33,7 @@ To add a feed, tell the AI what you want checked and how often.
 Both feeds use the same scope, so they never disagree about what counts:
 
 - **Read:** `[KNOWLEDGE]/knowledge.md`, `[KNOWLEDGE]/hypotheses.md`, any other note in `[KNOWLEDGE]` and its subfolders (atomic notes), and the person notes in `[PEOPLE]`.
-- **Skip these files entirely:** `agents.md`, `rules.md`, `INDEX.md`, `audit-log.md`, any file ending in `-log.md`, anything under `feed-output/` or `digests/`, any file whose frontmatter says `status: example` or `status: superseded`, and in `[PEOPLE]`, `README.md` and any file starting with `_`.
+- **Skip these files entirely:** `agents.md`, `playbooks.md`, `rules.md`, `INDEX.md`, `audit-log.md`, any file ending in `-log.md`, anything under `feed-output/` or `digests/`, any file whose frontmatter says `status: example` or `status: superseded`, and in `[PEOPLE]`, `README.md` and any file starting with `_`.
 - **Inside the files you read, skip entries** marked `status: example` or `status: superseded`, and anything under a "Disproven" heading in hypotheses.md.
 - **Dates:** never guess one. An entry with no `reviewed` date (or a person with no `last_contact`) goes in a separate "missing dates" list, not the stale list.
 
@@ -118,7 +118,7 @@ Schedule: Friday morning, before the audit. When you're ready for it, ask the AI
 
 ## On request
 
-*These aren't scheduled; the runbook's standing requests run them. Details here for reference.*
+*These aren't scheduled; the person asks for them, and `knowledge/playbooks.md` runs them. Details here for reference.*
 
 ### Save this
 
