@@ -82,6 +82,8 @@ The person should not have to open files. When a conversation produces something
 - **Something they're testing, exploring, or considering.** Append to `knowledge/hypotheses.md` with the test, what would prove it true, and a check-back date.
 - **A candidate rule.** Propose it and ask. If they said "always" or "from now on," that is the yes: append to `knowledge/rules.md` (or `seat/rules.md` if it only applies to this role), mark it STABLE, and say where it went.
 - **A correction in conversation.** Offer to update the file; on a yes, save the approved edit and read it back.
+- **A good answer worth keeping.** When a question produces an answer the person will want again (a comparison, the reasoning behind a decision, a piece of research), offer to file it as a small note in `knowledge/`: one idea per file, a plain name, its sources, and today's date. The second brain grows from use, not just from reading.
+- **Something that contradicts a note.** Don't overwrite the old note. Show both, ask which is right, then mark the other `superseded` with a one-line reason.
 - **A new person worth tracking.** Suggest a note in `2. Areas/people/` (playbook: Areas, people, voice, goals).
 - **A change to the seat or the role** ("I've taken on X," "that's not mine anymore," a measure that changed). Draft the edit to `seat/seat.md` or `seat/role.md`, show it, and save on their yes. Read it back.
 
@@ -93,6 +95,8 @@ Adapted from Katie Parrott's writing at Every on evidence-based AI coaching (202
 2. Separate confirmed evidence, your interpretation, and open questions. Label them.
 3. Treat intent and setup as weaker signals than observed outcomes.
 4. Check the record before asking the person for a self-assessment.
+
+**Slow facts and fast facts.** Slow facts (who people are, how the person works, what's been decided) come from these files. Fast facts (status, dates, amounts, balances, anything that changes week to week) get checked at their source each time, never repeated from a note or from memory. If you can't reach the source, say the fact is unconfirmed.
 
 ## 4. The compounding loop (Pawel Huryn pattern)
 
