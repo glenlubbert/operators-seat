@@ -103,6 +103,8 @@ Both follow the protected-content rule in runbook section 7. More detail in `sea
 
 **"Double-check [a draft or file]"** (often said to a second AI about something another AI wrote): read it fresh against `knowledge/rules.md`, the seat, and the facts in `knowledge/`, as if you hadn't written it. List what's wrong, missing, unsupported, or off-voice, each with where you found the problem. Don't rewrite or save anything unless they ask; the point is a second opinion, not a second draft.
 
+Before the person approves anything significant (yours or another AI's), answer three questions about it: What was the hardest decision in making this? What alternatives were considered and rejected? Where is it least certain? (Credit: Katie Parrott's "ChatGPT for Knowledge Work" guide at Every.)
+
 ---
 
 ## Feeds and scheduling
@@ -110,6 +112,19 @@ Both follow the protected-content rule in runbook section 7. More detail in `sea
 - **"Run the first feed":** feed 1 in `seat/feeds.md`. Fill in the real paths for `[VAULT_ROOT]` and `[OS_ROOT]` and paste in the preamble (its "For the AI" section says how), run it once now, and show the results.
 - **Scheduling it.** If your app lets you create the scheduled task yourself, do it and show what you set up. If it doesn't (in the Claude desktop app, people create scheduled tasks themselves, from Scheduled in the sidebar), give them the finished prompt with no `[brackets]` left, plus the exact clicks. Either way, ask them to tell you after the first run whether it could open their folder; scheduled tasks may run in the cloud, and some need the app open on their computer to reach local files. Add every feed you help schedule to the "Scheduled prompts" table in `seat/paths.md`. If their app has no scheduling at all, offer the by-hand version: they say "Run the first feed" each Friday.
 - **Step 6's calendar event.** If a calendar is connected, create the Friday event. If not, say so in one line and they'll make it.
+- **"Make this a routine"** (or "automate this," "do this every week"): run the task by hand once first and check the result with the person. Then fill in this form with them, show it, and on their yes add it to `seat/feeds.md` as a new feed:
+
+  > **Name:**
+  > **When it runs:** (schedule, or what triggers it)
+  > **Reads:** (named sources only)
+  > **Writes:** (the only files it may change)
+  > **May do without asking:**
+  > **Must ask first:** (anything that sends, posts, deletes, or changes a source of truth)
+  > **How it's checked:** (what the person looks at, and where)
+  > **Lands in:**
+  > **When to retire it:** (the date or sign that it's no longer worth running)
+
+  At the Friday audit, if a routine's retire condition has been met, ask whether to switch it off.
 
 ---
 
@@ -120,7 +135,7 @@ Once a week (default Friday afternoon, or when the person asks):
 1. Read the Now block in `seat/seat.md` and ask the seat's questions, in this order: best hopes for next week; what's already working that should keep going; on a 0 to 10 for the week, where are they and what would one point higher look like; the smallest next step. Write the answers into Now.
 2. Read the measures in `seat/role.md` and report the week against them, from the record.
 3. Read the latest `knowledge/feed-output/stale-*.md` (or `tidy-*.md`) if one exists; otherwise do that sweep yourself, using the review scope in `seat/feeds.md`. Stale means an entry's `reviewed` date is more than 30 days old; it doesn't mean the fact is false. Entries with no date at all are a separate list, "missing dates": ask "still true?" and add today's date on a yes. For each stale entry, ask "still true?" On a yes, set `reviewed` to today. On a no, mark it `superseded` with a one-line note. On "promote," move it to `rules.md` (proposed, then saved on their yes).
-4. Suggest rule promotions or demotions from the week's conversations.
+4. Suggest rule promotions or demotions from the week's conversations, and name any routine in `seat/feeds.md` whose "When to retire it" condition has been met.
 5. Report what's missing: things they keep repeating that a file should hold.
 6. Save every approved change, read the changed files back, and append one line to `knowledge/audit-log.md`: date, what was refreshed, confirmed, superseded, or promoted, and the measures reported.
 
