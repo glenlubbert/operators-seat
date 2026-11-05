@@ -38,7 +38,7 @@ Every AI plan has limits, measured in tokens: roughly, how much text the AI read
 
 **A map instead of the whole library.** Knowledge is kept as small notes, one idea per file, with a plain name. Once you have more than a dozen, a short script (in Level 2) builds an index: one line per note. The AI reads that one page, picks the two or three notes that matter, and opens only those. Topic folders carry a short summary so the AI can get its bearings without opening everything. So the cost of a question depends on the question, not on how much you've saved. Five years of notes cost about the same to search as five weeks.
 
-**Short standing instructions.** The instructions every conversation reads are kept to about 2,500 words. The procedures you only need now and then (the first interview, sorting files, the Friday audit, setting up feeds) sit in a separate file the AI opens only when that task comes up.
+**Short standing instructions.** The instructions every conversation reads are kept to about 2,600 words. The procedures you only need now and then (the first interview, sorting files, the Friday audit, setting up feeds) sit in a separate file the AI opens only when that task comes up.
 
 There's a small fixed cost: each new conversation starts by reading a few short files. That's the trade, and it's much less than re-explaining yourself. No savings figure is claimed here, because it depends on how you work; the mechanics above are what make it smaller.
 
