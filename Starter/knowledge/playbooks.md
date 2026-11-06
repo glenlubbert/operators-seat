@@ -146,7 +146,7 @@ Before the person approves anything significant (yours or another AI's), answer 
 Once a week (default Friday afternoon, or when the person asks):
 
 1. Read the Now block in `seat/seat.md` and ask the seat's questions, in this order: best hopes for next week; what's already working that should keep going; on a 0 to 10 for the week, where are they and what would one point higher look like; the smallest next step. Write the answers into Now.
-2. Read the measures in `seat/role.md` and report the week against them, from the record.
+2. Read the measures in `seat/role.md` and report the week against them, from the record. If they've set up a backup with history (Level 2), also report the last save: read `.git/last-backup-status` at the top folder if it exists, or ask them to check. Flag it if it's missing, says FAILED, or is more than three days old. A backup nobody checks can quietly stop for months.
 3. Read the latest `knowledge/feed-output/stale-*.md` (or `tidy-*.md`) if one exists; otherwise do that sweep yourself, using the review scope in `seat/feeds.md`. Stale means an entry's `reviewed` date is more than 30 days old; it doesn't mean the fact is false. Entries with no date at all are a separate list, "missing dates": ask "still true?" and add today's date on a yes. For each stale entry, ask "still true?" On a yes, set `reviewed` to today. On a no, mark it `superseded` with a one-line note. On "promote," move it to `rules.md` (proposed, then saved on their yes).
 4. Suggest rule promotions or demotions from the week's conversations, and name any routine in `seat/feeds.md` whose "When to retire it" condition has been met.
 5. Report what's missing: things they keep repeating that a file should hold.
