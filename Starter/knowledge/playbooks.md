@@ -18,8 +18,8 @@
 - After the last question (or whenever they want to stop), draft every file you're about to change, show each draft in the chat, and ask "Anything wrong or missing?" Edit until they say it's right. Then save. Never save before they've approved, including a partial save.
 - After saving, read the files back (open them and confirm the content matches the approved draft) and tell them what was saved where. If a save failed, say so and keep the approved draft in the chat.
 - Close with the handoff to step 2, in one or two sentences: "That's step 1. When you're ready, start a new conversation in this project and ask: 'What should I be careful about this week?'"
-- Set `Onboarding:` to `complete` once they've been through all fourteen; a skipped question counts as done. Use `partial` only if they stopped before the end, with a line listing which questions are left.
-- Questions 1 to 8 are the seat; 9 to 12 are the role; 13 and 14 set up their folders. If they stop after 8, save, mark `partial`, and offer to do the role later; when they come back, ask only the questions that are left.
+- Set `Onboarding:` to `complete` once they've been through all fifteen; a skipped question counts as done (Q15 counts as done when Q13's answer is "as little as possible"). Use `partial` only if they stopped before the end, with a line listing which questions are left.
+- Questions 1 to 8 are the seat; 9 to 12 are the role; 13 to 15 set up their folders. If they stop after 8, save, mark `partial`, and offer to do the role later; when they come back, ask only the questions that are left.
 
 **The questions, in order**
 
@@ -40,16 +40,17 @@
 12. Most weeks, what would you look at to know it went well? Numbers if you have them, things you'd notice if you don't.
 
 *Your folders (`1. Projects/`, `2. Areas/`)*
-13. What projects are you working on right now? Just the names, anything with a finish line. (If they list ongoing things with no end, like "my health" or "marketing," say those are areas and hold them for the next question.)
-14. Then propose a starting set of areas based on Q2, as a short list they can edit, and ask "Which of these fit, and what's missing?"
+13. How much structure do you like? A lot (a place for everything), some, or as little as possible (I'll keep track and file things for you)? There's no right answer; people work well at every point.
+14. What projects are you working on right now? Just the names, anything with a finish line. (If they list ongoing things with no end, like "my health" or "marketing," say those are areas and hold them for the next question.)
+15. Then propose a starting set of areas based on Q2, as a short list they can edit, and ask "Which of these fit, and what's missing?" Skip this question if Q13 was "as little as possible": say they can add an area any time by asking.
     - Business: Sales, Marketing, Finance, Operations, Product development, Clients, Team.
     - Personal life: Health, Career, Money, Family, Relationships, Friends and community, Personal growth, Spirituality, Fun and recreation, Home. Say most people keep five or six.
     - Both: a short mix of the two, led by whichever they said matters most.
-    Add anything from Q13 that turned out to be an area. `people/`, `brand/`, and `goals/` already exist; don't propose them again.
+    Add anything from Q14 that turned out to be an area. `people/`, `brand/`, and `goals/` already exist; don't propose them again.
 
 **What goes where**
 
-Q1 and Q2: *Me* and *What this folder is for*. Q3: *Now* (best hopes, active threads, already working). Q4: *Settled*, and the "said no to" items also go to `seat/role.md` under "What I've said no to." Q5: *Open*. Q6: *Key People*. Q7: *Key Terms*. Q8: *How to talk to me* in the seat, and item by item to `knowledge/rules.md` under Always or Never, marked STABLE, because the person said it directly. Q9: `role.md` "What I own." Q10: "Decisions that are mine." Q11: "Not my seat." Q12: "Measures of a good week" (the Friday audit and the morning feed read these). Q13: one folder per project under `1. Projects/`, each copied from `_Example Project/` with `project.md` holding only the name and "Details to fill in"; step 4 fills one in properly. Q14: one folder per area under `2. Areas/`, each with a one-line `README.md` saying what it covers. Show the list of folders you'll create in the same approval as the seat drafts; create them only on the yes.
+Q1 and Q2: *Me* and *What this folder is for*. Q3: *Now* (best hopes, active threads, already working). Q4: *Settled*, and the "said no to" items also go to `seat/role.md` under "What I've said no to." Q5: *Open*. Q6: *Key People*. Q7: *Key Terms*. Q8: *How to talk to me* in the seat, and item by item to `knowledge/rules.md` under Always or Never, marked STABLE, because the person said it directly. Q9: `role.md` "What I own." Q10: "Decisions that are mine." Q11: "Not my seat." Q12: "Measures of a good week" (the Friday audit and the morning feed read these). Q13: one line under *How to talk to me*, `Structure: a lot | some | as little as possible`, which the runbook reads (section 2). Q14: one folder per project under `1. Projects/`, each copied from `_Example Project/` with `project.md` holding only the name and "Details to fill in"; step 4 fills one in properly. Q15: one folder per area under `2. Areas/`, each with a one-line `README.md` saying what it covers. Show the list of folders you'll create in the same approval as the seat drafts; create them only on the yes.
 
 Leave the company-vault pointer blank unless they mention a shared company folder. Replace example lines in each file with the real ones; delete examples that have no real counterpart.
 
@@ -104,6 +105,18 @@ Both follow the protected-content rule in runbook section 7. More detail in `sea
 **"Double-check [a draft or file]"** (often said to a second AI about something another AI wrote): read it fresh against `knowledge/rules.md`, the seat, and the facts in `knowledge/`, as if you hadn't written it. List what's wrong, missing, unsupported, or off-voice, each with where you found the problem. Don't rewrite or save anything unless they ask; the point is a second opinion, not a second draft.
 
 Before the person approves anything significant (yours or another AI's), answer three questions about it: What was the hardest decision in making this? What alternatives were considered and rejected? Where is it least certain? (Credit: Katie Parrott's "ChatGPT for Knowledge Work" guide at Every.)
+
+---
+
+## Wrap up
+
+**"Wrap up"** (or "what did we learn?", "debrief"): a short look back at a piece of work, so the next one goes better. Offer it once, in one line, at the end of a long task or any conversation where the person corrected you; don't run it unasked.
+
+1. Answer from this conversation, the way you'd ask a person who did the work: What was asked, and what was delivered? What went right that should happen every time? What went wrong or needed correcting, and why? What did the person have to explain that a file should already have held? If it went smoothly, say so in one line and stop. Never invent lessons.
+2. Propose at most three changes, each with the exact file and line: a rule (`knowledge/rules.md`, or `seat/rules.md` if it's about this role), a fact for `knowledge/knowledge.md`, something under test for `knowledge/hypotheses.md`, or an edit to a project's notes, a routine, or `2. Areas/brand/voice.md`. If the rule already exists and was missed, say that instead of adding a duplicate.
+3. Save only what they approve, read it back, and quote the line. Lessons from a protected folder stay in that folder (runbook section 7).
+
+*Credit: Arielle Shipper's "self-improve" skill, from Every's Thesis 2027 session "Using AI as Your Operating System."*
 
 ---
 

@@ -44,6 +44,7 @@ The person won't name files. When they say one of these, open that section of `k
 | "Install Operator's Seat inside my folders" | Installing inside existing folders |
 | "Save this," "Pass this on to [person]" | Save this and pass it on |
 | "Double-check [a draft or file]" | Double-check |
+| "Wrap up," "What did we learn?", "Debrief" | Wrap up |
 | "Run the first feed," "make this a routine," scheduling anything, or step 6's calendar event | Feeds and scheduling |
 | "Run the Friday audit," or it's the audit's time | The Friday audit |
 
@@ -76,7 +77,7 @@ Skim, don't recite. The person knows what's in these files. Pull from them when 
 
 ## 2. Where to put new information
 
-The person should not have to open files. When a conversation produces something durable, file it before the conversation ends. One approval model for everything: reversible runs, irreversible asks. Routine internal filing (facts, hypotheses, dated corrections) runs without asking; a rule you *inferred* from a pattern is proposed and waits for a yes; a rule they stated with "always" or "from now on" is authorized for that named rule only; anything that leaves the vault (sending, posting, publishing, writing to an outside system) needs their explicit yes, per item.
+The person should not have to open files. Match how much structure they asked for (`Structure:` in the seat's *How to talk to me*): with "as little as possible," choose where things go yourself and say where in one line, don't propose new folders or areas unless they ask, and keep sorting questions to a minimum; with "a lot," offer to give new kinds of material their own place. When a conversation produces something durable, file it before the conversation ends. One approval model for everything: reversible runs, irreversible asks. Routine internal filing (facts, hypotheses, dated corrections) runs without asking; a rule you *inferred* from a pattern is proposed and waits for a yes; a rule they stated with "always" or "from now on" is authorized for that named rule only; anything that leaves the vault (sending, posting, publishing, writing to an outside system) needs their explicit yes, per item.
 
 - **A confirmed fact, decision, or piece of context** ("file this"). Append to `knowledge/knowledge.md` under the relevant section, with today's date as both `added` and `reviewed`, a `source` (the conversation), and `status: active`. Say what you filed.
 - **Something they're testing, exploring, or considering.** Append to `knowledge/hypotheses.md` with the test, what would prove it true, and a check-back date.
