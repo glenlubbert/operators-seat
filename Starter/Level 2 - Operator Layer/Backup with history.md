@@ -19,15 +19,18 @@ The `.gitignore` in the Starter excludes editor state, `.DS_Store`, `.env`, `.se
 
 As a scheduled task (ask the AI, or use Scheduled in the Claude sidebar):
 
-> In "/path/to/VAULT_ROOT", run `git add -A && git commit -m "Nightly $(date +%F)"`. Report the commit hash, or "nothing to commit." If git returns an error, report it word for word and do not retry. Do not push unless a remote is configured and this prompt says to.
+> In "/path/to/VAULT_ROOT", run `git add -A && git commit -m "Nightly $(date +%F)"`. Report the commit hash, or "nothing to commit." If git returns an error, report it word for word and do not retry. Do not push unless a remote is configured and this prompt says to. Finally, write one line to `.git/last-backup-status`: today's date and time, then `OK` and the commit hash, or `FAILED` and the error. The Friday audit reads this line.
 
-Or a cron line: `0 23 * * * cd "/path/to/VAULT_ROOT" && git add -A && git commit -qm "Nightly $(date +\%F)"`.
+Or a cron line: `0 23 * * * cd "/path/to/VAULT_ROOT" && git add -A && { git diff --cached --quiet || git commit -qm "Nightly $(date +\%F)"; } && echo "$(date '+\%F \%H:\%M') OK $(git rev-parse --short HEAD)" > .git/last-backup-status || echo "$(date '+\%F \%H:\%M') FAILED" > .git/last-backup-status`.
+
+**If your folders sync through Dropbox, iCloud, or OneDrive,** set the top folder to stay downloaded on this computer ("Available offline" in Dropbox, "Keep Downloaded" in iCloud, "Always keep on this device" in OneDrive). Git can't read files that exist only in the cloud, and the backup fails.
 
 ## What this gives you, honestly
 
 A daily recovery point, if the commit ran and succeeded. If the task didn't fire, the app was closed, or git errored, there's no save point for that day. So:
 
-- **Check it monthly.** `git log --oneline | head -5` should show recent nightly commits. If there are gaps, find out why before you need the backup.
+- **The Friday audit checks it weekly** by reading `.git/last-backup-status`. You can also run `git log --oneline | head -5` yourself: it should show recent nightly commits. If there are gaps, find out why before you need the backup.
+- **If you push to GitHub from a scheduled job,** sign git in first (for example, `gh auth login` then `gh auth setup-git`). A nightly job can't type a password, so without this the upload fails every night.
 - **Practice a restore once.** Pick any note, run `git log --oneline -- "path/to/note.md"` to see its history, then `git show <hash>:"path/to/note.md"` to read an old version, or `git checkout <hash> -- "path/to/note.md"` to bring it back. Ten minutes, and you'll know the backup is real.
 
 A private remote (GitHub) is optional and gives you a copy off your machine. The password warning matters more once your folders are on someone else's server. Plenty of people run local git plus Dropbox and never add a remote.
